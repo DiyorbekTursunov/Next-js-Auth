@@ -22,7 +22,7 @@ export const CardWrapper = (
   }: CardWrapperProps) => {
 
   return (
-    <Card className="w-[500px] h-full">
+    <Card className="w-[500px] h-full flex flex-col ">
       <CardHeader>
         <Header label={headerLabel} />
       </CardHeader>
@@ -36,7 +36,7 @@ export const CardWrapper = (
           <Social />
         </CardFooter>}
 
-      <CardFooter>
+      <CardFooter className="w-full flex justify-center">
         <BackButton label={backButtonLabel} href={backButtonHref}/>
       </CardFooter>
     </Card>

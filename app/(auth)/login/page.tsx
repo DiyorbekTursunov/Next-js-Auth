@@ -1,9 +1,9 @@
-import AuthForm from "@/components/auth/auth-form"
+import LoginForm from "@/components/auth/login-form"
 
 const Login = () => {
   return (
-    <div className="">
-      <AuthForm/>
+    <div>
+      <LoginForm/>
     </div>
   )
 }

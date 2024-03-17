@@ -22,7 +22,6 @@ export const AuthButtonComponent = ({
 
 
     const onClick = () => {
-        console.log('login button clicked');
         router.push(path)
     }
 
